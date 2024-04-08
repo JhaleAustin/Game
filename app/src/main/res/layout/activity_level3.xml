@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Placeholder for the organism -->
+
+    <!-- Drag target for prokaryote -->
+    <ImageView
+        android:id="@+id/organismImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/plant" />
+
+    <ImageView
+        android:id="@+id/prokaryoteTarget"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/prokaryotic_cell"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"/>
+
+    <!-- Drag target for eukaryote -->
+    <ImageView
+        android:id="@+id/eukaryoteTarget"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/eukaryotic_cellanimal"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="50dp"/>
+
+</RelativeLayout>
