@@ -31,8 +31,10 @@ public class Menu extends AppCompatActivity {
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this, SelectionQuest.class);
-                startActivity(intent);
+//                Intent intent = new Intent(Menu.this, SelectionQuest.class);
+
+                Intent intent = new Intent(Menu.this,   Quest4_lvl2.class);
+                  startActivity(intent);
 
             }
         });

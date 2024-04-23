@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Game"
         tools:targetApi="31">
         <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Quest4_lvl3"
+            android:exported="false" />
+        <activity
+            android:name=".Quest4_lvl2"
+            android:exported="false" />
+        <activity
+            android:name=".Quest4_lvl1"
+            android:exported="false" />
+        <activity
+            android:name=".Quest4"
+            android:exported="false" />
+        <activity
             android:name=".Quest1"
             android:exported="false" />
         <activity
