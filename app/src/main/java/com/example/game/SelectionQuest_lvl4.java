@@ -27,7 +27,7 @@ public class SelectionQuest_lvl4 extends AppCompatActivity {
             public void onClick(View v) {
 //                Intent intent = new Intent(Menu.this, SelectionQuest.class);
 
-                Intent intent = new Intent(SelectionQuest_lvl4.this,   Quest4_lvl1.class);
+                Intent intent = new Intent(SelectionQuest_lvl4.this,   q4Intro1.class);
                 startActivity(intent);
 
             }
@@ -42,7 +42,7 @@ public class SelectionQuest_lvl4 extends AppCompatActivity {
             public void onClick(View v) {
 //                Intent intent = new Intent(Menu.this, SelectionQuest.class);
 
-                Intent intent = new Intent(SelectionQuest_lvl4.this,   Quest4_lvl2.class);
+                Intent intent = new Intent(SelectionQuest_lvl4.this,   q4Intro2.class);
                 startActivity(intent);
 
             }
@@ -56,7 +56,7 @@ public class SelectionQuest_lvl4 extends AppCompatActivity {
             public void onClick(View v) {
 //                Intent intent = new Intent(Menu.this, SelectionQuest.class);
 
-                Intent intent = new Intent(SelectionQuest_lvl4.this,   Quest4_lvl3.class);
+                Intent intent = new Intent(SelectionQuest_lvl4.this,   q4Intro3.class);
                 startActivity(intent);
 
             }
