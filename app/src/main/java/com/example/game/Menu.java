@@ -2,6 +2,7 @@ package com.example.game;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -18,7 +19,7 @@ public class Menu extends AppCompatActivity {
     private Button btnPlay, btnSelectMale,btnNext, btnCancel;
     private ImageButton btnShop;
 
-    @Override
+     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -42,7 +43,7 @@ public class Menu extends AppCompatActivity {
         });
 
 
-        btnShop = findViewById(R.id.btnShop);
+        btnShop = this.<ImageButton>findViewById(R.id.imageButton);
 
         btnShop.setOnClickListener(new View.OnClickListener() {
             @Override

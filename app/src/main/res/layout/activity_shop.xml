@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Items"
+    android:background="@drawable/iitems_2"
     android:backgroundTint="#00C65959"
     android:backgroundTintMode="screen"
-    tools:context=".Shop" >
+    tools:context=".Shop">
 
     <Button
         android:id="@+id/button17"
@@ -15,6 +15,7 @@
         android:layout_height="74dp"
         android:layout_marginStart="172dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,6 +28,7 @@
         android:layout_height="74dp"
         android:layout_marginStart="12dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button17"
@@ -39,6 +41,7 @@
         android:layout_height="74dp"
         android:layout_marginStart="16dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button34"
@@ -62,6 +65,7 @@
         android:layout_width="76dp"
         android:layout_height="59dp"
         android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

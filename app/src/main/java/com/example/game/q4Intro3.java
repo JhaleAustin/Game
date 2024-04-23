@@ -47,7 +47,7 @@ public class q4Intro3 extends AppCompatActivity {
 
     private void changeImage() {
         // Change the image here
-        imageView.setImageResource(R.drawable.q4Intro3); // Replace new_image with your new image resource
+        imageView.setImageResource(R.drawable.qqintro3_1); // Replace new_image with your new image resource
         startQ4lvl3.setVisibility(View.VISIBLE);
     }
 }
