@@ -42,5 +42,16 @@ public class SelectionQuest extends AppCompatActivity {
             }
         });
 
+
+        btnLevel4 = findViewById(R.id.btnLevel4);
+
+        btnLevel4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SelectionQuest.this, SelectionQuest_lvl4.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
